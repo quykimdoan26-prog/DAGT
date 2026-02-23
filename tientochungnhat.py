@@ -8,6 +8,10 @@ def longestCommonPrefix(self, strs):
         while not i.startswith(prefix):
             prefix=prefix[:-1]
             if not prefix:
-                return ""
+                return " "
     return prefix
+        
+
+    
+
         
