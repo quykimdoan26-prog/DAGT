@@ -5,7 +5,7 @@
 #         self.left = left
 #         self.right = right
 class Solution(object):
-    def inorderTraversal(self, root):
+    def inorderTraversal(self, root): # duyệt cây LNR
         if root==None: return []
         l=[]
         l+=self.inorderTraversal(root.left)

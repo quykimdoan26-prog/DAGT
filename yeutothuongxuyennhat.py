@@ -5,7 +5,7 @@ def topKFrequent(self, nums, k):
         if i in d:
             d[i]+=1
         else:
-            d[i]=1
+            d[i]=1   # => hàm Counter(nums)
     # sử dùng hàm có sắp xếp của python, các tham số đầu vào là (list,giá trị sắp xếp,kiểu sắp xếp)
     #key=lambda x: x[1] ( với mỗi phần tử x: chỉ quan tâm đến phần tử đứng sau "tần số của mỗi giá trị" 
     # để sắp xếp)
