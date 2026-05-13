@@ -12,3 +12,6 @@ class Solution(object):
                     d[i]+=candies
                     candies-=candies
         return d
+    
+
+

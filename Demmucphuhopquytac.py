@@ -11,6 +11,7 @@ class Solution(object):
             if i[lay]==ruleValue:
                 sum+=1
         return sum
+
         """
         :type items: List[List[str]]
         :type ruleKey: str

@@ -4,7 +4,7 @@ class Solution(object):
         count = defaultdict(int)
         
         # Bước 1: lưu tổng của nums1 + nums2
-        for a in nums1:
+        for a in nums1: 
             for b in nums2:
                 count[a+b] += 1
         
